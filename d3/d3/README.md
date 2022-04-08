@@ -1,35 +1,27 @@
-Angular + D3
-============
-Follow me if you want to try reproducing this project from scratch.
+# D3
 
-Steps
------
-1. npm init -y
-2. npm install express --save
-3. ng new d3
-4. cd d3
-5. npm install d3 --save
-6. npm install @types/d3 --save
-(Yes, this means we are installing new node modules into Angular!)
-7. ng g component bar
-8. ng g component pie
-9. ng g component scatter
-10. Add all components to src/app/app.component.html
-11. Add some nice global CSS to src/index.html (see lines 9 and 10)
-12. Create a basic Node server.js file to serve the files Angular will build
-13. Edit src/app/bar/bar.component.html
-14. Add data+logic to bar.component.ts
-15. Repeat steps 13+14 for pie
-16. Repeat steps 13+14 for scatter
-17. ng build
-18. npm start
-19. See the visualization!
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
-But what if...
---------------
-What if we could just get data from a REST API endpoint instead of hardcoding?
-Check the bar component again to see one way to do that.
+## Development server
 
-Credits
--------
-https://blog.logrocket.com/data-visualization-angular-d3/
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
